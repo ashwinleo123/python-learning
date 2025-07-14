@@ -35,12 +35,12 @@ print(tuple(enumerate (a)))
 for c,k in enumerate(a):
     print(c,k)
 """
-"""
+
 #print(list(range(4,27,3)))
 num=int(input("enter your number:"))
 for k in range(1,11):
     print(f"{k} * {num} = {k*num}")
- """  
+ 
 
 
 #for num in range (1,17)
@@ -80,7 +80,10 @@ for num in range(1,11):
         break
     print(num)     
 """
+"""
 for r in range(1,4):
     for j in range(1,r+1):
         print(j,end=" ")
     print(" ")          
+"""
+
