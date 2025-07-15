@@ -19,6 +19,7 @@ while count<=num:
     count+=1
 print(f) 
 """
+"""
 while True:
  num=int(input("enter your number:"))
  numb=int(input("enter your second number:"))
@@ -39,6 +40,42 @@ while True:
  str=input("do you want to continue(yes/no):")
  if str.lower()!="yes":
     break
+"""
+"""
+for x in range(1,26,2):
+   print(x,end=" ")   
+print(" ")   
+"""
+"""
+for x in range(1,5):
+   print("* "*x)
+"""   
+"""
+for r in range(1,6):
+    for sp in range(5-r):
+        print(" ",end="")
+    for st in range(r):
+        print("*",end="")
+    print("")   
+"""
 
-   
+"""
+for x in range(1,6):
+    print(" "*int(5-x),"*"*x)
+"""   
 
+"""
+for x in range(5,0,-1):
+     for r in range(1,x+1):
+         print("*",end=" ")
+     print()  
+"""     
+
+
+
+"""
+for x in range(1,5):
+    for r in range(1,x+1):
+        print(x*r,end=" ")
+    print()
+"""
