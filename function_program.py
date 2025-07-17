@@ -34,5 +34,14 @@ is_even(num)   """
 
 """def addition(a,b=0):
     print(a+b)
-addition(1) """   
+addition(1) 
+"""
+
+
+"""def fun(name):
+    print("hello",name)
+fun("ashwin")
+fun("jesin") """   
+
+
 

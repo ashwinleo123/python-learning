@@ -15,8 +15,10 @@ for r in range(5,0,-1):
     for r in range(x):
       print(chr(65+r),end=" ")
     print()  """   
-"""
-for x in range(1,6):
+
+
+#4th question
+"""for x in range(1,6):
     k=x
     n=4
     for r in range(1,x+1):
@@ -24,3 +26,11 @@ for x in range(1,6):
        k=k+n
        n-=1
     print()"""
+
+#5th question
+"""for x in range(1,5):
+    print("*",end="")
+for c in range(1,4):
+    print("*","  *")   
+for r in range(1,6):
+ print("*",end="")        """
