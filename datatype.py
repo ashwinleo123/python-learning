@@ -12,6 +12,12 @@ print(type(p))
 # list
 my_list=["python",45,8.2,[34,"kochi"]]
 
+
+
+fruits = ["apple","orange","banana","pear"]
+fruits.reverse()
+print(fruits)
+
 #my_list[1]=10
 #print(my_list)
 #my_list[3][1]='kollam'
@@ -37,7 +43,6 @@ my_dict= {"name":"ashwin","age":27,"hobbies":{"cycling","coding",34,12}}
 print(my_dict["age"])
 my_dict["age"]=20
 print(my_dict)
-
 
 
 

@@ -85,5 +85,59 @@ print(is_even(a))"""
 number=[1,3,4,7]
 print(set(map(squares,number)))"""
 
-"""numbers=[1,3,4,5]
-print(list(map(lambda x:x**2, numbers)))"""
+"""numbers=(1,3,4,5)
+print(tuple(map(lambda x:x**2, numbers)))"""
+
+
+#zip
+"""for k,v in zip(["name","age"],["ashwin","20"]):
+    print(k,v)"""
+
+#exception handling
+
+"""a,b=10,2
+try:
+    c=a/b
+except Exception:
+    print("please enter a divisible number ") 
+else:
+    print("your number is")
+    print(c)"""
+
+
+"""a,b=10,0
+try:
+    c=a/b
+    print(c)
+except Exception as e:
+    print(e)
+    print("please enter a valid number")"""
+    
+    
+
+"""a,b=10,0
+try:
+    c=a/j
+    print(c)
+except NameError:
+    print("value defined for operants")
+    print("please enter a valid number")"""
+
+#program to add two numbers in one int
+"""a,b=map(int,input("enter your number:").split())
+print(a,b)"""
+
+"""while True:
+ try:
+   a,b=map(int,input("enter two numbers:").split())
+   try:
+    c=a/b
+    print(c)
+   except Exception:
+      print("please enter a divisible number")
+ except NameError: 
+     print("not found")         
+ except Exception as e:
+   print("none")   """
+
+
