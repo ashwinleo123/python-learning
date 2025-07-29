@@ -32,7 +32,7 @@ print(Laptops.owner)"""
 
 
 
-class Vehicle:
+"""class Vehicle:
     def detail(self,m,model):
         self.make=m
         self.model=model
@@ -43,6 +43,71 @@ class Car(Vehicle):
 c1=Car(c="RED",p="151BHP")
 c1.detail(m="2000",model="BMW")
 print(c1.make)
-print(c1.model)
+print(c1.model)"""
 
 
+"""class Person:
+    def __init__(self,fname,lname):
+        self.firstname=fname
+        self.lastname=lname
+    def printname(self):
+        print(self.firstname,self.lastname)
+x=Person("zaman","zid")
+x.printname()"""
+
+
+
+#multiple inheritence
+"""class Father:
+    def skills(self):
+        print("Father:reading,walking")
+class Mother:
+    def skills(self):
+        print("Mother:cooking")            
+class Child(Father,Mother):
+    def skills(self):
+        Father.skills(self)
+        Mother.skills(self)
+        print("child:football")
+c=Child()
+c.skills()"""
+
+
+#multilevel inheritence
+"""class Grandfather:
+    def Grandfather(self):
+        print("I AM THE GRAND FATHER")
+class Father(Grandfather):
+    def Father(self):
+        print("I AM THE FATHER")
+class Child(Father):
+    def Child(self):
+        print("I AM THE CHILD")
+c=Child()
+c.Grandfather()
+c.Father()
+c.Child()"""
+
+
+
+#hierarchial inheritance using init
+"""class Person:
+    def __init__(self,name):
+        self.name=name
+    def display(self):
+        print(f"name:{self.name}")
+class Student(Person):
+    def study(self):
+        print(f"{self.name} is a student")
+class Teacher(Person):
+    def teach(self):
+        print(f"{self.name} is a teacher")
+s=Student("Ashwin")
+s.display()
+s.study()                                 
+t=Teacher("jesin")
+t.display()
+t.teach()"""
+
+
+#
