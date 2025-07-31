@@ -17,8 +17,19 @@ greet()
 subtract(10,20)    """
 
 
-
-from datetime import date
+# to find date and time 
+"""from datetime import date
 today_date=date.today()
-print("today's date:",today_date)
+print("today's date:",today_date)"""
+
+
+
+      
+
+
+
+
+
+
+
 
