@@ -10,7 +10,7 @@ class child(parent):
         print("abstract method implementation")
 a=child()
 a.display()
-a.fun()   """ 
+a.fun()   """
 
 
        
