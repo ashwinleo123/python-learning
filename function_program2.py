@@ -70,8 +70,8 @@ print(evens)"""
 print(v(5))"""
 
 """is_even=lambda num:True if num%2==0 else False
-print(is_even(7))
-"""
+print(is_even(2))"""
+
 """is_even=lambda num:f"{num} is even" if num%2==0 else f"{num} is odd"
 print(is_even(3))"""
 
@@ -87,6 +87,9 @@ print(set(map(squares,number)))"""
 
 """numbers=(1,3,4,5)
 print(tuple(map(lambda x:x**2, numbers)))"""
+
+"""add=lambda a,b:a+b
+print(add(1,2))"""
 
 
 #zip

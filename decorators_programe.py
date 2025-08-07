@@ -26,3 +26,4 @@ print("today's date:",today_date)"""
 
 """def home(user):
     print("welcome",user.get)"""
+
